@@ -18,6 +18,8 @@ import numpy as np
 from models import SimulationMetrics
 from simulator import Simulator
 from schedulers import FIFOScheduler, SJFScheduler
+from model.neural_scheduler import NeuralScheduler
+from model.neural_scheduler_model import NeuralSchedulerModel
 from data_loader import (
     load_jobs_from_csv,
     assign_poisson_arrivals,
